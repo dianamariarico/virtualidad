@@ -126,4 +126,26 @@ a:hover {
         margin-bottom: 20px; /* Añadimos espacio entre las tablas cuando están apiladas */
     }
 }
+#menu {
+    background-color: #071d9b; /* Fondo azul */
+    color: white; /* Texto en blanco */
+    font-size: 16px; /* Tamaño de fuente */
+    padding: 10px; /* Espaciado dentro del menú */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 200px; /* Ancho del menú */
+    margin-top: 20px; /* Un poco de espacio superior */
+}
+
+/* Estilo para las opciones del menú */
+#menu option {
+    background-color: #071d9b; /* Fondo azul en las opciones */
+    color: white; /* Texto en blanco */
+    padding: 10px; /* Espaciado dentro de las opciones */
+}
+
+/* Estilo para el estado hover sobre las opciones */
+#menu option:hover {
+    background-color: #0a2592; /* Un tono azul más oscuro al pasar el ratón */
+}
 
