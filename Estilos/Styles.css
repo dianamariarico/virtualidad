@@ -65,8 +65,9 @@ table {
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: #ffffff; /* Fondo blanco para las tablas */
-    width: auto; /* Ajusta el ancho de la tabla según el contenido  max-width: 900px; /* Opcional: establece un ancho máximo para la tabla */
-    
+    width: 100%; /* Hacer que la tabla ocupe todo el ancho disponible */
+    text-align: left;
+}
    
     text-align: left; /* Opcional: alinea el texto a la izquierda en las celdas */
 }
