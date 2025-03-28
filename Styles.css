@@ -102,3 +102,26 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Contenedor para las tablas */
+.table-container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Permite que las tablas se acomoden de forma flexible */
+}
+
+/* Estilo de las tablas */
+.table-container, .table-container-2 {
+    width: 48%; /* En pantallas grandes las tablas ocupan el 48% */
+    margin: 0;
+}
+
+/* Ajustes para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .table-container, .table-container-2 {
+        width: 100%; /* En pantallas pequeñas las tablas ocupan todo el ancho */
+        margin-bottom: 20px; /* Añadimos espacio entre las tablas cuando están apiladas */
+    }
+}
