@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Color de fondo de la página */
+    color:#071d9b
+}
+
+.header {
+    background-color: #071d9b; /* Azul */
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Alinea la imagen y el texto horizontalmente */
+}
+
+.header img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.header h1, .header p {
+    margin: 0;
+}
+
+.header h1 {
+    font-size: 1.5em;
+}
+
+.header p {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.table-container {
+    margin: 1px;
+    display: flex;
+   
+       
+   
+  
+   
+}
+
+.lista-con-punton {
+    list-style-type: disc; /* Esto agrega las viñetas a los elementos de la lista */
+    padding-left: 20px; /* Ajusta el espacio a la izquierda para las viñetas */
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Fondo blanco para las tablas */
+    width: auto; /* Ajusta el ancho de la tabla según el contenido  max-width: 900px; /* Opcional: establece un ancho máximo para la tabla */
+    
+   
+    text-align: left; /* Opcional: alinea el texto a la izquierda en las celdas */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color alternante para filas */
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el ratón sobre una fila */
+}
+
+.table-header img {
+    max-width: 100px;
+    height: auto;
+}
+
+a {
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
