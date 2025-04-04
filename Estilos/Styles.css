@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -148,4 +147,3 @@ a:hover {
 #menu option:hover {
     background-color: #0a2592; /* Un tono azul más oscuro al pasar el ratón */
 }
-
