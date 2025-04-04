@@ -4,341 +4,288 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apoyo Tecnologías virtuales de la ingeniería</title>
-    <link rel="stylesheet" href="Estilos/Styles.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="Estilos/Styles2.css"> <!-- Enlace al archivo CSS -->
 </head>
+
 <body>
-
     
-
-    <script src="js/script.js"></script>
-    <!-- Encabezado -->
-    <div class="header">
-        
+    <header class="Header">
         <img src="imagenes/itm.png" alt="Logo del ITM">
         <div>
             <h1>Apoyo Tecnologías Virtuales</h1>
-            <p>Diseño y Programación de Software como Servicio (SaaS)</p>
-            <p>Desarrollo de Aplicaciones para Dispositivos Móviles</p>
+            <h4>Diseño y Programación de Software como Servicio (SaaS)<br>Desarrollo de Aplicaciones para Dispositivos Móviles</h4>
         </div>
-    </div>
-    <div style="height: 100px;">
-        <h2>Aquí encontrarás información general del itm y de las tecnologías 
-        <!-- Menú Desplegable -->
+    </header>  
      
-        <select id="menu" onchange="irAFila()">
-            <option value="">Selecciona una opción</option>
-            <option value="fila1">Eventos coordinación</option>
-            <option value="fila2">Problemas??</option>
-            <option value="fila3">Programación del semestre</option>
-            <option value="fila4">Mallas curriculares(Asignaturas)</option>
-            <option value="fila5">Configuración del correo institucional</option>
-            <option value="fila6">Acceso de páginas (ej Asesorías)</option>
-            <option value="fila7">Financiamiento de matrículas</option>
-            <option value="fila8">Certificado académico</option>
-            <option value="fila9">Carnet</option>
-            <option value="fila10">Ruta para la graduación</option>
-            <option value="fila11">Servicios de bienestar</option>
-            <option value="fila12">Homologaciones</option>
-            <option value="fila13">Correos importantes</option>
-            <option value="fila14">Inscripciones para grados</option>
-            <option value="fila15">Pruebas T Y T</option>
-            <option value="fila16">Catedra para graduarse</option>
-            <option value="fila17">Suficiencia en ingles</option>
+
+    <div class="Menu">
+     <section >
+        <h2>Encuentra info general del ITM y de la tecnología</h2> 
+        <select onchange="location = this.value;">
+
+            <option href="#seccion1">Selecciona una opción</option>
+            <option value="#seccion1">Eventos coordinación</option>
+            <option value="#seccion4">Problemas??</option>
+            <option value="#seccion3">Programación del semestre</option>
+            <option value="#seccion3">Mallas curriculares(Asignaturas)</option>
+            <option value="#seccion3">Configuración del correo institucional</option>
+            <option value="#seccion3.5">Acceso Asesorías</option>
+            <option value="#seccion3.5">Financiamiento de matrículas</option>
+            <option value="#seccion3.5"">Certificado académico</option>
+            <option value="#seccion3.5"">Carnet</option>
+            <option value="#seccion3.8">Ruta para la graduación</option>
+            <option value="#seccion3.8">Servicios de bienestar</option>
+            <option value="#seccion3.8">Homologaciones</option>
+            <option value="#seccion2"">Correos importantes</option>
+            <option value="#seccion3.9">Inscripciones para grados</option>
+            <option value="#seccion3.9">Pruebas T Y T</option>
+            <option value="#seccion3.9">Catedra para graduarse</option>
+            <option value="#seccion3.9">Suficiencia en ingles</option>
             
         </select>
-    </h2>
-    </div>
-
-  
-    <div class="table-container3">
-
-   <table>
-            <thead id="fila1">
-                <tr>
-                    <th colspan="3"><h2>Eventos de la coordinación del programa</h2>
-
-                    <ul class="lista-con-punton">
-                        <a href="https://forms.office.com/r/cbH35czhiT" target="_blank">• Formulario para dudas, o problemas dar clic aquí</a></strong><br>
-                        <a href="https://teams.microsoft.com/l/meetup-join/19%3aS50UfbG2UorjBQF8dQwl0q89O5G4oANjMOHUZ-nEosQ1%40thread.tacv2/1741125316784?context=%7b%22Tid%22%3a%22a2ba4345-7764-4d22-b6a1-7cf528f3b3a5%22%2c%22Oid%22%3a%22e94db3c5-e93a-470f-bdb5-eb2e452c6ba0%22%7d" target="_blank">• Link para las reuniones viernes 12 del día dar clic aquí</a></strong><br>
-                        Próxima conferencia viernes 29 de marzo a las 12 del día metodologías de estudio
-                    </ul>
-                    
-                     <h2>Grabaciones de conferencias</h2>
-                     <h4>Debes tener abierto el correo institucional</h4> 
-                     <ul class="lista-con-punton">
-                        <a href="https://correoitmedu.sharepoint.com/sites/2025-Primersemestre-Diseoyprogramacindesolucionesdesoftwarec/Shared%20Documents/General/Recordings/Conferencia%20sobre%20uno%20de%20los%20elementos%20de%C2%A0%20power%20skills%C2%A0%20muy%20necesarias%20en%20las%20personas%20para%20trabajar%20en%20las%20empresas-20250321_120307-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?web=1&referrer=Teams.TEAMS-WEB&referrerScenario=MeetingChicletGetLink.view" target="_blank">•	Conferencia el tiempo en tu vida dar clic aquí</a></strong><br>
-                        <a href="https://correoitmedu-my.sharepoint.com/:v:/g/personal/dianarico7690_correo_itm_edu_co/EcFu2w1P065OsTOGmaVwBuAB_rguXonAU7QHGjCRxzO2UA?e=Fdv8lK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">•	Conferencia sobre práctica empresarial</a></strong><br>
-                        
-                     </ul>
-                    </th>     
-                    
-                
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Aquí van las filas de la segunda tabla -->
-                <tr>
-                    
-                </tr>
-                 
-                
-                
-            </tbody>
-        </table>
- 
-    
-    </div>
-    <!-- Enlaces mas usados-->
-    <div class="table-container">
+    </section> 
+   </div> 
         
-        <table>
+        <!-- Información Principal -->
+        <div class="Informacion">
             
-            <thead>
-                <tr >
-                    <th colspan="3"><h1>Enlaces mas usados....... </h1></th>
-                    
-                    
-                     
-                </tr>
-                
-
-            </thead>
-            <thead>
-                
-            </thead>
-            <tbody>
-                 <tr >
-                     <td><a href="#target">Tienes problemas?? da clic aquí</a></td>
-                 </tr>
-                
-                <tr id="fila3">
-                    <td>Programación</td>
-                    <td>
-                        <ul class="lista-con-punton">
-                        
-                        <a href="https://www.itm.edu.co/aspirante-pregrado/calendario-academico/" target="_blank">•	Calendario académico ITM</a></strong><br>
-                        <a href="https://itmeduco-my.sharepoint.com/:b:/g/personal/dianarico_itm_edu_co/EeD4URtiSq9HumZhIaq6WuYBh_bJ4AhTbXXUOfXo51wlig?e=AUEgT6" target="_blank">• Programación semestral virtual</a></strong>
-                       </ul>
-                    </td>
-                </tr "fila1">
-                <tr id="fila4">
-                    <td>Mallas curriculares </td>
-                    <td>
-                        <a href="https://www.itm.edu.co//wp-content/uploads/facultad-ingenierias/Malla-Tec-Diseno-y-Programacion-de-Soluciones-de-Software-como-Servicio-SaaS_compressed.pdf" target="_blank">• Diseño y programación de soluciones de software</a><br>
-                        <a href="https://www.itm.edu.co/wp-content/uploads/2021/08/Malla-Tec-Dllo-de-Aplicaciones-para-Dispositivos-Moviles.pdf" target="_blank">• Desarrollo de dispositivos móviles</a>
-                    </td>
-                </tr>
-                
-                <tr id="fila5">
-                    <td>Configuración del correo institucional </td>
-                    <td> 
-                       <a  href="https://itmeduco-my.sharepoint.com/:v:/g/personal/infraestructurati_itm_edu_co/EfV5gEMPBA9NiNz8Z77AFv4BTKdJXUopo9ySoWcsvkoJKA?e=Jsp7rU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-="_blank">Dar clic aquí</a><br>
-                    </td>
-                            
-                </tr>
-                
-                <tr id="fila6">
-                    <td>Acceso de páginas para la formación </td>
-                    <td>
-                        <a href="https://campusvirtual.itm.edu.co/" target="_blank">• Plataforma virtual</a><br>
-                        <a href="https://siaweb.itm.edu.co/ClaveAlumnos.asp" target="_blank">• Sistema de Información Académica (SIA)</a><br>
-                        <a href="https://www.itm.edu.co/" target="_blank">• Página del ITM</a><br>
-                        <a href="https://teams.microsoft.com/" target="_blank">• Teams (Asesorías virtuales)</a><br>
-                        <a href="https://docs.google.com/document/u/0/d/1ObhK2tM96sXPPj6gjARn4Xta0x0IoD-g/mobilebasic" target="_blank">• Asesorías SIGA</a>
-                    </td>
-                        
-                        
-                </tr>
-                <tr id="fila7">
-                    <td>Financiacióon de matrículas </td>
-                    <td>
-                        <a  href="https://www.itm.edu.co/matricula-cero/" target="_blank">• Matrícula 0,intente primero por acá</a><br>
-                        <a title="Por Presupuesto participativo" href="https://www.itm.edu.co/bienestar/presupuesto-participativo/" target="_blank">• Por presupuesto Participativo</a>
-                    </td>         
-                </tr>
-                <tr id="fila8">
-                    <td>Certificado académico </td>
-                    <td> 
-                       <a  href="https://www.itm.edu.co/certificados/%20" target="_blank">Dar clic aquí</a><br>
-                    </td>
-                            
-                </tr>
-                <tr id="fila9">
-                    <td>Carnet </td>
-                    <td> 
-                       <a  href="https://docs.google.com/forms/d/e/1FAIpQLSezSmBYBHreaESymEpis_xDG53vGJmYZkipbA_Df28xAc2_bg/viewform" target="_blank">Dar clic aquí</a><br>
-                    </td>
-                            
-                </tr>
-                <tr id="fila10">
-                    <td>Ruta de graduación</td>
-                    <td>
-                        <a href=https://drive.google.com/file/d/1GSPC1bwrnQNPJexy4nwrja44nd9ZqeBO/view?usp=sharing" target="_blank">Requisitos para la graduación</p>
-                    </td>
-                </tr>
-                
-                <tr>
-                 <tr id="fila11">
-                    <td>Servicios de bienestar</td>
-                    <td>
-                        <a href = https://drive.google.com/file/d/1OOpLkXTmrq2K05bJgKWkKuOqGnq0Y5XU/view?usp=drive_link" target="_blank">Servicios de bienestar</p>
-                    </td>
-                </tr>
-                <tr id="fila12">
-                    
-                    <td>Homologaciones</td>
-                    <td>
-                        
-                        <a href="#" onclick="Homologaciones()">Da clic aquí para informarte</strong></p> 
-                       <a href=https://docs.google.com/document/d/1e5VR1HBNKWG6rpeuC_KT7cjSLfiFKwcz/edit?usp=sharing&ouid=107566590404022279347&rtpof=true&sd=true=sharing" target="_blank">Formato de homologación</p>
-                        <script>
-                        function Homologaciones() {
-                                
-                            alert('envía el formato a este correo electrónico:Catalinamontoyad@itm.edu.co\n y anexar contenidos temáticos separados por cada materia en pdf y calificaciones');
-                      }
-                    </script>
-                    </td>
-                </tr>
-                <tr id="fila14">
-                    <td>Inscripciones para grados</td>
-                    <td>
-                        <a href="https://www.itm.edu.co/grados/" target="_blank">Inscripciones para grados</p>
-                    </td>
-                </tr>
-                <tr id="fila15">
-                    <td>Pruebas saber T y T</td>
-                    <td>
-                        <a href="https://www.itm.edu.co/pruebas-saber-pro-y-tyt/" target="_blank">Pruebas saber t y t</p>
-                    </td>
-                </tr>
-                <tr id="fila16">
-                    <td>Catedras abiertas para graduarse</td>
-                    <td>
-                        <a href="https://www.itm.edu.co/estudiantes/catedras-abiertas/" target="_blank">Catedras abiertas para graduarse</p>
-                    </td>
-                </tr>
-                <tr id="fila17">
-                    <td>Suficiencia en ingles</td>
-                    <td>
-                        <a href="https://www.itm.edu.co/centro-de-idiomas/lineamientos-para-prueba-de-suficiencia-de-ingles/                
-                " target="_blank">Suficiencia en ingles</p>
-                    </td>
-                </tr>
-
-                <tr id="fila13">
-                    <td ">Correos importantes </td>
-                    <td>
-                        
-                        • Para incapacidades - Doctorsalud@itm.edu.co <a  href="https://www.itm.edu.co/bienestar/salud/" target="_blank">Asesoría en salud</a><br>
-                        • Para asesoría psicológica - <a  href="https://siaweb.itm.edu.co/consulta/consulta_virtual.asp" target="_blank">Asesoría psicológica  <br>
-                        • Ayuda socioeconómica -´socioeconomica@itm.edu.co <a  href="https://www.itm.edu.co/bienestar/socioeconomica/" target="_blank">Mas sobre socioeconómico aquì</a><br>
-                        • Ayuda para adición a sustancias zou@itm.edu.co<br>
-                        <a href="#" onclick="PagoMatricula()">• Para pago de matrícula dar clic aquí</strong></a>
-                        <script>
-                        function PagoMatricula() {
-                                
-                            alert('favor escribir a:\n1.tesoreriaitm@itm.edu.co\n2.eduardgarcia@itm.edu.co \n3.Taquillavirtualpregrado@itm.edu.co\n4.Pagostesoreria@itm.edu.co');
-                      }
-                    </script>
-                    </td>         
-                </tr>
-            </tbody>
-        </table>
-
-     </div>
-
-    
-    <div class="table-container-2">
-        <table>
+         <section>
+            <header>
+                <h2>Eventos de la coordinación del programa</h2>
+            </header>
+             <div>
+                 <a href="https://forms.office.com/r/cbH35czhiT" target="_blank">Formulario para dudas, o problemas dar clic aquí</a>
+                 <a href="https://teams.microsoft.com/l/meetup-join/19%3aS50UfbG2UorjBQF8dQwl0q89O5G4oANjMOHUZ-nEosQ1%40thread.tacv2/1741125316784?context=%7b%22Tid%22%3a%22a2ba4345-7764-4d22-b6a1-7cf528f3b3a5%22%2c%22Oid%22%3a%22e94db3c5-e93a-470f-bdb5-eb2e452c6ba0%22%7d" target="_blank">Link para las reuniones viernes 12 del día</a>
+             </div>
+            <p id="Enfasis">Próxima conferencia viernes 29 de marzo a las 12 del día metodologías de estudio </p>
+            </section>
             
-            <thead>
-                <tr id="fila2">
-                    <th colspan="3"><a id="target"><h1>Tienes problemas?? </h1></a></th>
-                    
-                     
-                </tr>
-
-            </thead>
             
-            <tbody>
-                       
-                    <td>Coloca tu duda o tu problema en este formulario</td>
-                    <td>
-                        <a href="https://forms.office.com/r/cbH35czhiT" target="_blank">• Formulario para dudas, o problemas dar clic aquí</a></strong><br>
-                    
-
-                    </td>
+            <section >
+                <header>
+                    <h2>Grabaciones de conferencias</h2>
+                </header>
+                <div>
+                    <a href="https://correoitmedu.sharepoint.com/sites/2025-Primersemestre-Diseoyprogramacindesolucionesdesoftwarec/Shared%20Documents/General/Recordings/Conferencia%20sobre%20uno%20de%20los%20elementos%20de%C2%A0%20power%20skills%C2%A0%20muy%20necesarias%20en%20las%20personas%20para%20trabajar%20en%20las%20empresas-20250321_120307-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4?web=1&referrer=Teams.TEAMS-WEB&referrerScenario=MeetingChicletGetLink.view" target="_blank">Conferencia el tiempo en tu vida dar clic aquí</a>
+                    <a href="https://correoitmedu-my.sharepoint.com/:v:/g/personal/dianarico7690_correo_itm_edu_co/EcFu2w1P065OsTOGmaVwBuAB_rguXonAU7QHGjCRxzO2UA?e=Fdv8lK&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Conferencia sobre práctica empresarial</a>
+                    <a href="https://correoitmedu-my.sharepoint.com/:v:/g/personal/dianarico7690_correo_itm_edu_co/EV0pmOtRSo1BkAjSeD8HvQUBxFUmC_1rggInU2B99k_yoQ?e=z4zT2D&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">Conferencia sobre Trabajo de grado</a>
+                    <a href="https://correoitmedu.sharepoint.com/:v:/s/2025-Primersemestre-Diseoyprogramacindesolucionesdesoftwarec/EXYW9z9ljYZFgnvQ9c2siSABwycoHXwMXEahlGxIZPS1-A?e=tSZK1P" target="_blank">Conferencia sobre metodos para estudiar y que nos rinda el tiempo</a>
+                </div>
                 
-                <tr>
-                    <td>De Acceso a plataforma</td>
-                    <td>
-                        <a href="#" onclick="AccesoPlataforma()">Escribir por whatsapp 3243785870 o escribir a este correo educacionvirtual@itm.edu.co o Llamar a estos números (604) 460 07 27 opc.9 exts. 5538, 5545, 5591, 5592, </strong></p>
-                            
-                        <a href="#">Para una guía para la plataforma y de Apoyo Virtual GAVI: gaviuvirtual@itm.edu.co </strong></p>
-                        
-                            <script>
-                            function AccesoPlataforma() {
-                                
-                                alert('Si tienes problemas en la plataforma debes:  \n1. whatsapp a este número de 8 a 5 3243785870  \n2. escribir a este correo educacionvirtual@itm.edu.co\n3. Llamar a estos números (604) 460 07 27 opc.9 exts. 5538, 5545, 5591, 5592\n4. La unidad virtual queda en esta dirección\nCl. 54a #30-01 Campus Fraternidad bloque L 202 Medellín  \n5.gavi virtual
-telefono 604 460 0727 opc 9 exts 5802 - gaviuvirtual@itm.edu.co');
-
-
-                            }  
-                        </script> 
-                    </td>
-                </tr>
-                <tr>
-                       
-                    <td>Acceso al Correo institucional</td>
-                    <td>
-                        <a href="#" onclick="Correo()">Escribir a este correo: Soportevirtual@itm.edu.co</p>
-                            <script>
-                            function Correo() {
-                                
-                                alert('escribe a estos correos: carlossierra@itm.edu.co\nSoportevirtual@itm.edu.co');
-                            }
-                        </script> 
-
-                    </td>
-                </tr>
-                 <tr>
-                    <td>Problemas de authenticacion de microsft</td>
-                    <td>
-                       <a href=https://drive.google.com/file/d/1exCYRGBdL9pAaaggCPPcIhTdbMH7xxNI/view?usp=sharing" target="_blank">Instructivo para resolver la authenticación</p>
-                      
-                    </td>
-                </tr>
-                                
-                
-                    
-                <tr>
-                    <td>Ingreso al sistema de información académica (SIA)</td>
-                    <td>
-                        <p>Problemas para entrar al s&iacute;a:</p>
-                        <p><em><span style="color: #0000ff;"><strong>Da clic en olvid&eacute; mi clave</strong></span></em></p>
-                        <p>Escribir a: gladisrueda@itm.edu.co</p>
-
-                        <p>&nbsp;</p>
-                    </td>
-                </tr> 
-                
-            </tbody>
-        </table>
+                <p id="Enfasis">Debes tener abierto el correo institucional</p>      
+            </section> 
     </div>
-    
-    <script>
-        // Función para desplazar hacia la fila seleccionada
-        function irAFila() {
-            var seleccion = document.getElementById("menu").value;
-            if (seleccion) {
-                document.getElementById(seleccion).scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-    </script>
-   
+            
 
-   
+    <section class="Correos" id="seccion2">
+        <header style="display: flex; align-items: center;  justify-content: center;">
+            <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                        <svg height="25"width="30" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31_12-gmail_x2C__email_x2C__mail"><g><g><g><rect height="358.87" style="fill:#F1F5F7;" width="357.904" x="77.045" y="76.565"/><path d="M256.002,293.738l178.947,141.697v-279.74L256.002,293.738z M256.002,293.738" style="fill:#DCE6EA;"/><path d="M449.861,76.565h-14.912L256.002,218.26L77.045,76.565H62.134      c-24.693,0-44.737,20.094-44.737,44.858v269.152c0,24.759,20.044,44.859,44.737,44.859h14.911v-279.74l178.957,138.014      l178.947-138.047v279.773h14.912c24.699,0,44.742-20.101,44.742-44.859V121.424C494.604,96.66,474.561,76.565,449.861,76.565      L449.861,76.565z M449.861,76.565" style="fill:#F84437;"/></g></g></g></g><g id="Layer_1"/>
+            </svg>
+            <h1>Correos importantes </h1>
+        </header>
 
+            <article>
+                <h3>Para incapacidades</h3> 
+                <a href="mailto:Doctorsalud@itm.edu.co">Doctorsalud@itm.edu.co</a> 
+                <a href="https://www.itm.edu.co/bienestar/salud/" target="_blank">Asesoría en salud</a>
+            </article>
+            <article>
+                <h3>Para asesoría psicológica</h3>
+                <a  href="https://siaweb.itm.edu.co/consulta/consulta_virtual.asp" target="_blank">Asesoría psicológica </a>
+            </article>
+            <article>
+                <h3>Ayuda socioeconómica</h3>
+                <a href="mailto:socioeconomica@itm.edu.co">socioeconomica@itm.edu.co</a> 
+                <a href="https://www.itm.edu.co/bienestar/socioeconomica/" target="_blank">Mas sobre socioeconómico aquì</a>
+            </article>
+            <article>
+                <h3>Ayuda para adición a sustancias</h3>
+                <a href="mailto:zou@itm.edu.co">zou@itm.edu.co</a>
+                <a href="#" onclick="PagoMatricula()">Para pago de matrícula dar clic aquí</strong></a>
+            </article>
+            <article>
+                <h3>
+                    
+                    Para problemas de financiamiento de matrícula
+                </h3>
+                <a href="mailto:tesoreriaitm@itm.edu.co">tesoreriaitm@itm.edu.co</a> 
+                <a href="mailto:eduardgarcia@itm.edu.co">eduardgarcia@itm.edu.co</a>
+                <a href="mailto:Taquillavirtualpregrado@itm.edu.co">Taquillavirtualpregrado@itm.edu.co</a>
+                <a href="mailto:Pagostesoreria@itm.edu.co">Pagostesoreria@itm.edu.co</a>
+            </article>    
+    </section>
+
+
+    <section class="Enlaces" id="seccion3">
+
+        <header>
+            <h1>Enlaces mas usados</h1>
+        </header>
+
+        <article>
+            <h3>Programación</h3>
+            <div>
+                <a href="https://www.itm.edu.co/aspirante-pregrado/calendario-academico/" target="_blank">Calendario académico ITM</a></strong><br>
+                <a href="https://itmeduco-my.sharepoint.com/:b:/g/personal/dianarico_itm_edu_co/EeD4URtiSq9HumZhIaq6WuYBh_bJ4AhTbXXUOfXo51wlig?e=AUEgT6" target="_blank">Programación semestral virtual</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Mallas curriculares</h3>
+            <div>
+                <a href="https://www.itm.edu.co//wp-content/uploads/facultad-ingenierias/Malla-Tec-Diseno-y-Programacion-de-Soluciones-de-Software-como-Servicio-SaaS_compressed.pdf" target="_blank">Diseño y programación de soluciones de software</a><br>
+                <a href="https://www.itm.edu.co/wp-content/uploads/2021/08/Malla-Tec-Dllo-de-Aplicaciones-para-Dispositivos-Moviles.pdf" target="_blank">Desarrollo de dispositivos móviles</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Configuración del correo institucional</h3>
+            <div>
+                <a href="https://itmeduco-my.sharepoint.com/:v:/g/personal/infraestructurati_itm_edu_co/EfV5gEMPBA9NiNz8Z77AFv4BTKdJXUopo9ySoWcsvkoJKA?e=Jsp7rU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D="_blank">Dar clic aquí</a>
+            </div>
+        </article>
+
+        <article id ="seccion3.5">
+            <h3>Acceso de páginas para la formación</h3>
+            <div>
+                <a href="https://campusvirtual.itm.edu.co/" target="_blank">Plataforma virtual</a><br>
+                <a href="https://siaweb.itm.edu.co/ClaveAlumnos.asp" target="_blank">Sistema de Información Académica (SIA)</a><br>
+                <a href="https://www.itm.edu.co/" target="_blank">Página del ITM</a><br>
+                <a href="https://teams.microsoft.com/" target="_blank">Teams (Asesorías virtuales)</a><br>
+                <a href="https://docs.google.com/document/u/0/d/1ObhK2tM96sXPPj6gjARn4Xta0x0IoD-g/mobilebasic" target="_blank">Asesorías SIGA</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Financiación de matrículas</h3>
+            <div>
+                <a  href="https://www.itm.edu.co/matricula-cero/" target="_blank">Matrícula 0</a><br>
+                <a title="Por Presupuesto participativo" href="https://www.itm.edu.co/bienestar/presupuesto-participativo/" target="_blank">Por presupuesto Participativo</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Certificado académico </h3>
+                <div>
+                    <a  href="https://www.itm.edu.co/certificados/%20" target="_blank">Dar clic aquí</a><br>
+                </div>
+        </article>
+
+        <article>
+            <h3>Carnet </h3>
+            <div> 
+               <a  href="https://docs.google.com/forms/d/e/1FAIpQLSezSmBYBHreaESymEpis_xDG53vGJmYZkipbA_Df28xAc2_bg/viewform" target="_blank">Dar clic aquí</a>
+            </div>
+        </article>
+
+        <article id= "seccion3.8">
+            <h3>Ruta para graduarse</h3>
+            <div>
+                <a href=https://drive.google.com/file/d/1GSPC1bwrnQNPJexy4nwrja44nd9ZqeBO/view?usp=sharing" target="_blank">Requisitos para la graduación</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Servicios de bienestar</h3>
+            <div>
+                <a href = https://drive.google.com/file/d/1OOpLkXTmrq2K05bJgKWkKuOqGnq0Y5XU/view?usp=drive_link" target="_blank">Servicios de bienestar</a>
+            </div>
+        </article>
+
+        <article>
+            <h3>Homologaciones</h3>
+                <div>
+                    <p>Envía el formato a este correo electrónico: </p>
+                    <a href="mailto:catalinamontoyad@itm.edu.co"> catalinamontoyad@itm.edu.co</a>  
+                    <p>Anexar contenidos temáticos separados por cada materia en pdf y calificaciones</p> 
+                    <a href=https://docs.google.com/document/d/1e5VR1HBNKWG6rpeuC_KT7cjSLfiFKwcz/edit?usp=sharing&ouid=107566590404022279347&rtpof=true&sd=true=sharing" target="_blank">Formato de homologación</a>
+                </div>            
+        </article>
+        
+        <article id = "seccion3.9">
+            <h3>Inscripciones para grados</h3>
+                <div>
+                    <a href="https://www.itm.edu.co/grados/" target="_blank">Inscripciones para grados</a>
+                </div>
+        </article>
+
+        <article>
+            <h3>Pruebas saber T y T</h3>
+                    
+                <div>
+                    <a href="https://www.itm.edu.co/pruebas-saber-pro-y-tyt/" target="_blank">Pruebas saber t y t</a>
+                </div>
+        </article>
+
+        <article>
+            <h3>Catedras abiertas para graduarse</h3>
+            <div>
+                <a href="https://www.itm.edu.co/estudiantes/catedras-abiertas/" target="_blank">Catedras abiertas para graduarse</a>
+            </div>
+        </article>
+        
+        <article>
+            <h3>Suficiencia en ingles</h3>
+                <div>
+                    <a href="https://www.itm.edu.co/centro-de-idiomas/lineamientos-para-prueba-de-suficiencia-de-ingles/" target="_blank">Suficiencia en ingles</a>
+                </div>
+        </article>
+
+    </section>
+
+
+    <section class="Problemas" id="seccion4">
+        <header>
+            <h1>Tienes problemas?? </h1>
+        </header>
+
+        <article>
+            <h3>Coloca tu duda o tu problema en este formulario</h3>
+            <div>
+                <a href="https://forms.office.com/r/cbH35czhiT" target="_blank">Formulario para dudas o problemas</a>
+                <p id="Icono"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
+                    <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+                    </svg>
+                    Escribir por whatsapp a Diana Rico docente enlace (Coordinación)
+                </p>
+                <a href="tel:+57 3004175811">+57 3004175811</a>
+                <p>Correo</p>
+                <a href="mailto:dianarico@itm.edu.co">dianarico@itm.edu.co@itm.edu.co</a>
+                
+            </div>
+        </article>
+        <article>
+            <h3>De Acceso a plataforma</h3>
+            <div>
+                    <p id="Icono" >
+                        <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+                        <svg height="25"width="30" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x31_12-gmail_x2C__email_x2C__mail"><g><g><g><rect height="358.87" style="fill:#F1F5F7;" width="357.904" x="77.045" y="76.565"/><path d="M256.002,293.738l178.947,141.697v-279.74L256.002,293.738z M256.002,293.738" style="fill:#DCE6EA;"/><path d="M449.861,76.565h-14.912L256.002,218.26L77.045,76.565H62.134      c-24.693,0-44.737,20.094-44.737,44.858v269.152c0,24.759,20.044,44.859,44.737,44.859h14.911v-279.74l178.957,138.014      l178.947-138.047v279.773h14.912c24.699,0,44.742-20.101,44.742-44.859V121.424C494.604,96.66,474.561,76.565,449.861,76.565      L449.861,76.565z M449.861,76.565" style="fill:#F84437;"/></g></g></g></g><g id="Layer_1"/>
+                        </svg>
+                        Para una guía para la plataforma y de Apoyo Virtual GAVI:</strong>
+                    </p>
+                    <a href="mailto:gaviuvirtual@itm.edu.co">gaviuvirtual@itm.edu.co</a>
+                    <p > Si tienes problemas en la plataforma debes: </p>
+                    <p  id="Icono">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
+                        <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+                        </svg>
+                        whatsapp a este número de <strong> 8 am a 5 pm  :</strong> 
+                    </p>
+                    <a href="tel:+57 3243785870"> +57 3243785870</a>
+                    <p  id="Icono"> Escribir a este correo </p>
+                    <a href="mailto:educacionvirtual@itm.edu.co">educacionvirtual@itm.edu.co</a>
+                    <p  id="Icono">Llamar a estos números <strong>(604) 460 07 27</strong> exts. 5538, 5545, 5591, 5592</p>
+                    <p >La unidad virtual queda en esta dirección</p>
+                    <p >Cl. 54a #30-01 <strong> Campus Fraternidad </strong> bloque L 202 Medellín  </p>
+                    <p >Gavi virtual</p>
+                    <p >telefono 604 460 0727 opc 9 exts 5802 - <a href="mailto:gaviuvirtual@itm.edu.co">gaviuvirtual@itm.edu.co</a></p>
+            </div>
+        </article>
+    </section>
+    <footer>
+    </footer>
 </body>
+
 </html>
