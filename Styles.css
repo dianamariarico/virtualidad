@@ -1,127 +1,113 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; /* Color de fondo de la página */
-    color:#071d9b
+    color:#071d9b;
 }
-
-.header {
-    background-color: #071d9b; /* Azul */
-    color: white;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centra el contenido horizontalmente */
-    text-align: center; /* Centra el texto dentro del contenedor */
+select{
+    width: 12em;
+    height: 5em;
+    border-radius: 1em;
+    color: #f9f9f9;
+    background: rgb(40,9,128);
 }
-
-.header-content {
+.Menu{
+    margin: 1em 0em 0em 0em;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row; /* Alinea la imagen y el texto horizontalmente */
+    width: 100%;
 }
-
-.header img {
-    max-width: 100px;
-    height: auto;
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
-}
-
-.header h1, .header p {
-    margin: 0;
-}
-
-.header h1 {
-    font-size: 1.5em;
-}
-
-.header p {
-    font-size: 1em;
-    margin-top: 5px;
-}
-
-.table-container {
-    margin: 1px;
-    display: flex;
-   
-       
-   
-  
-   
-}
-
-.lista-con-punton {
-    list-style-type: disc; /* Esto agrega las viñetas a los elementos de la lista */
-    padding-left: 20px; /* Ajusta el espacio a la izquierda para las viñetas */
-}
-
-
-
-
-table {
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    background-color: #ffffff; /* Fondo blanco para las tablas */
-    width: auto; /* Ajusta el ancho de la tabla según el contenido  max-width: 900px; /* Opcional: establece un ancho máximo para la tabla */
+section{
+    margin: 1em;
+    padding: 0.5em;
     
-   
-    text-align: left; /* Opcional: alinea el texto a la izquierda en las celdas */
-}
+    background-color: rgb(250, 245, 245);
+    border-radius: 1em;
+    border: solid;
+    box-shadow:#071d9b;
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Color alternante para filas */
-}
-
-tbody tr:hover {
-    background-color: #f1f1f1; /* Color al pasar el ratón sobre una fila */
-}
-
-.table-header img {
-    max-width: 100px;
-    height: auto;
-}
-
-a {
-    color: #1E90FF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Contenedor para las tablas */
-.table-container-wrapper {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
-    flex-wrap: wrap; /* Permite que las tablas se acomoden de forma flexible */
+    flex-wrap:wrap;
+    justify-content: center; 
+    justify-self: center; 
+  
+}
+section header {
+    width: 100%;
+    text-align: center;
+}
+article {
+    /* flex: 1; */
+    flex: auto;
+    margin: 1em;
+    padding: 0.5em;
+    min-width: 15em;
+    box-shadow: 0em 0.2em 0.2em 0em #2982FF;
+    border-radius: 1em;
+}
+a{
+    display:grid;
+    text-decoration: none;
+    color: #2881E0;
 }
 
-/* Estilo de las tablas */
-.table-container, .table-container-2 {
-    width: 48%; /* En pantallas grandes las tablas ocupan el 48% */
-    margin: 0;
+a:hover{
+    color: rgb(116, 15, 231);
 }
 
-/* Ajustes para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
-    .table-container, .table-container-2 {
-        width: 100%; /* En pantallas pequeñas las tablas ocupan todo el ancho */
-        margin-bottom: 20px; /* Añadimos espacio entre las tablas cuando están apiladas */
-    }
+/*  Cabezera de pagina  */
+
+.Header {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    color: #f9f9f9;
+    background: rgb(40,9,128);
+background: radial-gradient(circle, rgba(40,9,128,1) 17%, rgba(9,20,128,1) 77%, rgba(27,0,255,1) 100%);
+    
 }
+
+.Header img{
+    min-width: 10em;
+    max-width: 25em;
+    height: auto;
+    margin: 1em 1em 1em 1em ;
+    border-radius: 0.2em;
+}
+.Header dialog {
+    max-width: 40em;
+}
+.Header h1{
+    text-align: center;
+}
+
+/* 
+Informacion Importante 
+*/
+
+.Informacion{
+    display: inline-flex;
+    justify-content: center;
+}
+.Informacion section{
+    max-width:  30%;
+}
+.Informacion div{
+    padding: 0.5em;
+}
+
+#Enfasis{
+    width: 100%;
+    size: 12px;
+    text-align: center;
+    color: #14113f;
+}
+
+#Icono{
+    display: flex; align-items: center;
+}
+#Icono {
+    display: flex; align-items: center;
+}
+
